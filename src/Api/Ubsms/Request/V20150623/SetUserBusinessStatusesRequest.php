@@ -19,6 +19,8 @@
  */
 namespace Ubsms\Request\V20150623;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class SetUserBusinessStatusesRequest extends RpcAcsRequest
 {
 	function  __construct()

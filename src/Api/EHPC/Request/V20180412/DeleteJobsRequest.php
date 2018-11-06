@@ -19,6 +19,8 @@
  */
 namespace EHPC\Request\V20180412;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class DeleteJobsRequest extends RpcAcsRequest
 {
 	function  __construct()

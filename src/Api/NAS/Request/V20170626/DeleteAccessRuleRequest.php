@@ -19,6 +19,8 @@
  */
 namespace NAS\Request\V20170626;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class DeleteAccessRuleRequest extends RpcAcsRequest
 {
 	function  __construct()

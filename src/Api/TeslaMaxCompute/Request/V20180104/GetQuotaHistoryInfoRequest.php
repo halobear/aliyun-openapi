@@ -19,6 +19,8 @@
  */
 namespace TeslaMaxCompute\Request\V20180104;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class GetQuotaHistoryInfoRequest extends RpcAcsRequest
 {
 	function  __construct()

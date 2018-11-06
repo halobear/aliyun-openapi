@@ -19,6 +19,8 @@
  */
 namespace jaq\Request\V20161123;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class BbsPreventionRequest extends RpcAcsRequest
 {
 	function  __construct()

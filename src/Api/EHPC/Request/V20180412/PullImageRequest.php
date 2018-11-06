@@ -19,6 +19,8 @@
  */
 namespace EHPC\Request\V20180412;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class PullImageRequest extends RpcAcsRequest
 {
 	function  __construct()

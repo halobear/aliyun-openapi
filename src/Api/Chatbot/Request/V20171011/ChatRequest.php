@@ -19,6 +19,8 @@
  */
 namespace Chatbot\Request\V20171011;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class ChatRequest extends RpcAcsRequest
 {
 	function  __construct()

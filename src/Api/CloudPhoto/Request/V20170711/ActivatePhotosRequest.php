@@ -19,6 +19,8 @@
  */
 namespace CloudPhoto\Request\V20170711;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class ActivatePhotosRequest extends RpcAcsRequest
 {
 	function  __construct()

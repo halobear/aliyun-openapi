@@ -19,6 +19,8 @@
  */
 namespace Rds\Request\V20140815;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class DescribeOssDownloadsRequest extends RpcAcsRequest
 {
 	function  __construct()

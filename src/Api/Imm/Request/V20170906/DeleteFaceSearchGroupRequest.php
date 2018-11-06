@@ -19,6 +19,8 @@
  */
 namespace imm\Request\V20170906;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class DeleteFaceSearchGroupRequest extends RpcAcsRequest
 {
 	function  __construct()

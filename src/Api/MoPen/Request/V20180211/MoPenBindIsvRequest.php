@@ -19,6 +19,8 @@
  */
 namespace MoPen\Request\V20180211;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class MoPenBindIsvRequest extends RpcAcsRequest
 {
 	function  __construct()

@@ -19,6 +19,8 @@
  */
 namespace Dyvmsapi\Request\V20170525;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class CancelCallRequest extends RpcAcsRequest
 {
 	function  __construct()

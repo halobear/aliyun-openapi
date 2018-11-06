@@ -19,6 +19,8 @@
  */
 namespace Rds\Request\V20140815;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class ModifyGuardDomainModeRequest extends RpcAcsRequest
 {
 	function  __construct()

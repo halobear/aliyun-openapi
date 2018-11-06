@@ -19,6 +19,8 @@
  */
 namespace Smartag\Request\V20180313;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class UpdateSmartAccessGatewayVersionRequest extends RpcAcsRequest
 {
 	function  __construct()

@@ -19,6 +19,8 @@
  */
 namespace Alidns\Request\V20150109;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class DescribeDnsProductInstancesRequest extends RpcAcsRequest
 {
 	function  __construct()

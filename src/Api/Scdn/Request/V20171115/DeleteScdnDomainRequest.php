@@ -19,6 +19,8 @@
  */
 namespace scdn\Request\V20171115;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class DeleteScdnDomainRequest extends RpcAcsRequest
 {
 	function  __construct()

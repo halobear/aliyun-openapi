@@ -19,6 +19,8 @@
  */
 namespace Alidns\Request\V20150109;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class UpdateDomainGroupRequest extends RpcAcsRequest
 {
 	function  __construct()

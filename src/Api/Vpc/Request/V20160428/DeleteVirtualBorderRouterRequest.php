@@ -19,6 +19,8 @@
  */
 namespace Vpc\Request\V20160428;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class DeleteVirtualBorderRouterRequest extends RpcAcsRequest
 {
 	function  __construct()

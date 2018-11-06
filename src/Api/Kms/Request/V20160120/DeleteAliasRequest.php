@@ -19,6 +19,8 @@
  */
 namespace Kms\Request\V20160120;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class DeleteAliasRequest extends RpcAcsRequest
 {
 	function  __construct()

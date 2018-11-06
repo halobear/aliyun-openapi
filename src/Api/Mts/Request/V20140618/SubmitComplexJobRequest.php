@@ -19,6 +19,8 @@
  */
 namespace Mts\Request\V20140618;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class SubmitComplexJobRequest extends RpcAcsRequest
 {
 	function  __construct()

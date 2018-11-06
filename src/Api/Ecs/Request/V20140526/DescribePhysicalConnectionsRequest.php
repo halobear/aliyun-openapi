@@ -19,6 +19,8 @@
  */
 namespace Ecs\Request\V20140526;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class DescribePhysicalConnectionsRequest extends RpcAcsRequest
 {
 	function  __construct()

@@ -19,6 +19,8 @@
  */
 namespace Ons\Request\V20170918;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class OnsSubscriptionGetRequest extends RpcAcsRequest
 {
 	function  __construct()

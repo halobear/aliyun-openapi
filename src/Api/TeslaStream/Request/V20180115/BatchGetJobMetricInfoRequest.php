@@ -19,6 +19,8 @@
  */
 namespace TeslaStream\Request\V20180115;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class BatchGetJobMetricInfoRequest extends RpcAcsRequest
 {
 	function  __construct()

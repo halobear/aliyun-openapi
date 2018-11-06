@@ -19,6 +19,8 @@
  */
 namespace Kms\Request\V20160120;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class GetParametersForImportRequest extends RpcAcsRequest
 {
 	function  __construct()

@@ -19,6 +19,8 @@
  */
 namespace Dm\Request\V20151123;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class BatchSendMailRequest extends RpcAcsRequest
 {
 	function  __construct()

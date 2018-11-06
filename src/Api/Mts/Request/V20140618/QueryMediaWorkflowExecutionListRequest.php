@@ -19,6 +19,8 @@
  */
 namespace Mts\Request\V20140618;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class QueryMediaWorkflowExecutionListRequest extends RpcAcsRequest
 {
 	function  __construct()

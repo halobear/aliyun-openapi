@@ -19,6 +19,8 @@
  */
 namespace Iot\Request\V20180120;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class QueryProductListRequest extends RpcAcsRequest
 {
 	function  __construct()

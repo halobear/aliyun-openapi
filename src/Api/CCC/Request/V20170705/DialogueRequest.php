@@ -19,6 +19,8 @@
  */
 namespace CCC\Request\V20170705;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class DialogueRequest extends RpcAcsRequest
 {
 	function  __construct()

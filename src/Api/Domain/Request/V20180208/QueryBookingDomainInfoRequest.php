@@ -19,6 +19,8 @@
  */
 namespace Domain\Request\V20180208;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class QueryBookingDomainInfoRequest extends RpcAcsRequest
 {
 	function  __construct()

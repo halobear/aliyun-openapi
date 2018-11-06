@@ -19,6 +19,8 @@
  */
 namespace Vpc\Request\V20160428;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class DeletePhysicalConnectionRequest extends RpcAcsRequest
 {
 	function  __construct()

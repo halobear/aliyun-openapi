@@ -19,6 +19,8 @@
  */
 namespace jaq\Request\V20161123;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class CheckAccountAndPasswordRiskRequest extends RpcAcsRequest
 {
 	function  __construct()

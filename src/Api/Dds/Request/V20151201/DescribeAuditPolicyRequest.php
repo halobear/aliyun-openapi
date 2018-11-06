@@ -19,6 +19,8 @@
  */
 namespace Dds\Request\V20151201;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class DescribeAuditPolicyRequest extends RpcAcsRequest
 {
 	function  __construct()

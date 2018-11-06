@@ -19,6 +19,8 @@
  */
 namespace Cdn\Request\V20141111;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class AddCdnDomainRequest extends RpcAcsRequest
 {
 	function  __construct()

@@ -19,6 +19,8 @@
  */
 namespace CCC\Request\V20170705;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class ResumeJobsRequest extends RpcAcsRequest
 {
 	function  __construct()

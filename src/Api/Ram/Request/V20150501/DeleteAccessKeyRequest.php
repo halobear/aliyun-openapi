@@ -19,6 +19,8 @@
  */
 namespace Ram\Request\V20150501;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class DeleteAccessKeyRequest extends RpcAcsRequest
 {
 	function  __construct()

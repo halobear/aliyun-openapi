@@ -19,6 +19,8 @@
  */
 namespace jarvis\Request\V20180206;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class CreateAccessWhiteListGroupRequest extends RpcAcsRequest
 {
 	function  __construct()

@@ -19,6 +19,8 @@
  */
 namespace AliyunOpenApi\Api\Aegis\Request\V20161111;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class ModifyStrategyTargetRequest extends RpcAcsRequest
 {
 	function  __construct()

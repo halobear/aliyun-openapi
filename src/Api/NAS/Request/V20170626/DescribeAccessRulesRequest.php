@@ -19,6 +19,8 @@
  */
 namespace NAS\Request\V20170626;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class DescribeAccessRulesRequest extends RpcAcsRequest
 {
 	function  __construct()

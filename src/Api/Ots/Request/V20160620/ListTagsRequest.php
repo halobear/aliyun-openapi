@@ -19,6 +19,8 @@
  */
 namespace Ots\Request\V20160620;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class ListTagsRequest extends RpcAcsRequest
 {
 	function  __construct()

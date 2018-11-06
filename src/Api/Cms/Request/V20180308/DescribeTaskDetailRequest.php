@@ -19,6 +19,8 @@
  */
 namespace Cms\Request\V20180308;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class DescribeTaskDetailRequest extends RpcAcsRequest
 {
 	function  __construct()

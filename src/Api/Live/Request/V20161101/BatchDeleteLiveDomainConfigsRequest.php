@@ -19,6 +19,8 @@
  */
 namespace live\Request\V20161101;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class BatchDeleteLiveDomainConfigsRequest extends RpcAcsRequest
 {
 	function  __construct()

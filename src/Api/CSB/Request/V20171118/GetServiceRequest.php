@@ -19,6 +19,8 @@
  */
 namespace CSB\Request\V20171118;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class GetServiceRequest extends RpcAcsRequest
 {
 	function  __construct()

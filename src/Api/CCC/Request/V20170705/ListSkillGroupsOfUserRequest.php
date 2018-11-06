@@ -19,6 +19,8 @@
  */
 namespace CCC\Request\V20170705;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class ListSkillGroupsOfUserRequest extends RpcAcsRequest
 {
 	function  __construct()

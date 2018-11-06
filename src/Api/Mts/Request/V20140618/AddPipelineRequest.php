@@ -19,6 +19,8 @@
  */
 namespace Mts\Request\V20140618;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class AddPipelineRequest extends RpcAcsRequest
 {
 	function  __construct()

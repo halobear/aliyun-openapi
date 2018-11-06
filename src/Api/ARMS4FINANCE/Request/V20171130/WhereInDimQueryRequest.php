@@ -19,6 +19,8 @@
  */
 namespace ARMS4FINANCE\Request\V20171130;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class WhereInDimQueryRequest extends RpcAcsRequest
 {
 	function  __construct()

@@ -19,6 +19,8 @@
  */
 namespace TeslaDam\Request\V20180118;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class ActionDiskRmaRequest extends RpcAcsRequest
 {
 	function  __construct()

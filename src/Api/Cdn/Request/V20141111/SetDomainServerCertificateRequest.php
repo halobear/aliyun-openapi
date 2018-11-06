@@ -19,6 +19,8 @@
  */
 namespace Cdn\Request\V20141111;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class SetDomainServerCertificateRequest extends RpcAcsRequest
 {
 	function  __construct()

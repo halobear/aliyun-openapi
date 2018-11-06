@@ -19,6 +19,8 @@
  */
 namespace Ess\Request\V20140828;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class DescribeNotificationConfigurationsRequest extends RpcAcsRequest
 {
 	function  __construct()

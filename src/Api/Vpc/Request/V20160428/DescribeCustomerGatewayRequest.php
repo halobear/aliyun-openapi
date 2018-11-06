@@ -19,6 +19,8 @@
  */
 namespace Vpc\Request\V20160428;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class DescribeCustomerGatewayRequest extends RpcAcsRequest
 {
 	function  __construct()

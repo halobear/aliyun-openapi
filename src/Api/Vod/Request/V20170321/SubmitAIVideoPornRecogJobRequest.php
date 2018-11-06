@@ -19,6 +19,8 @@
  */
 namespace vod\Request\V20170321;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class SubmitAIVideoPornRecogJobRequest extends RpcAcsRequest
 {
 	function  __construct()

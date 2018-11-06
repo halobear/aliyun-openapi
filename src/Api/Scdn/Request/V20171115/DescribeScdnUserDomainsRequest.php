@@ -19,6 +19,8 @@
  */
 namespace scdn\Request\V20171115;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class DescribeScdnUserDomainsRequest extends RpcAcsRequest
 {
 	function  __construct()

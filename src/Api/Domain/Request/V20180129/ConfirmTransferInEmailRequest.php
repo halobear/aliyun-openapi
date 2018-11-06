@@ -19,6 +19,8 @@
  */
 namespace Domain\Request\V20180129;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class ConfirmTransferInEmailRequest extends RpcAcsRequest
 {
 	function  __construct()

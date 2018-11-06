@@ -19,6 +19,8 @@
  */
 namespace imm\Request\V20170906;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class DescribeRegionsRequest extends RpcAcsRequest
 {
 	function  __construct()

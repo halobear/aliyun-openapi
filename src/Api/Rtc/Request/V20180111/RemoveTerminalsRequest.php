@@ -19,6 +19,8 @@
  */
 namespace rtc\Request\V20180111;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class RemoveTerminalsRequest extends RpcAcsRequest
 {
 	function  __construct()

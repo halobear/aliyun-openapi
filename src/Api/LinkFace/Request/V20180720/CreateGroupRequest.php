@@ -19,6 +19,8 @@
  */
 namespace LinkFace\Request\V20180720;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class CreateGroupRequest extends RpcAcsRequest
 {
 	function  __construct()

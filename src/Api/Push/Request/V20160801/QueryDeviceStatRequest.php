@@ -19,6 +19,8 @@
  */
 namespace Push\Request\V20160801;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class QueryDeviceStatRequest extends RpcAcsRequest
 {
 	function  __construct()

@@ -19,6 +19,8 @@
  */
 namespace TeslaMaxCompute\Request\V20180104;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class QueryCustomerSaleInfoRequest extends RpcAcsRequest
 {
 	function  __construct()

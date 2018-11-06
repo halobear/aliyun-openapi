@@ -19,6 +19,8 @@
  */
 namespace Drds\Request\V20171016;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class ModifyDrdsIpWhiteListRequest extends RpcAcsRequest
 {
 	function  __construct()

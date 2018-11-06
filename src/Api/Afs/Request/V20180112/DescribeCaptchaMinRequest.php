@@ -19,6 +19,8 @@
  */
 namespace afs\Request\V20180112;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class DescribeCaptchaMinRequest extends RpcAcsRequest
 {
 	function  __construct()

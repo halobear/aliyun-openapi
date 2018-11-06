@@ -19,6 +19,8 @@
  */
 namespace Dm\Request\V20151123;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class SingleSendSmsRequest extends RpcAcsRequest
 {
 	function  __construct()

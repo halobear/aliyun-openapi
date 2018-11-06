@@ -19,6 +19,8 @@
  */
 namespace Drds\Request\V20171016;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class CreateDrdsAccountRequest extends RpcAcsRequest
 {
 	function  __construct()

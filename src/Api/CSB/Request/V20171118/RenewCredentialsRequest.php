@@ -19,6 +19,8 @@
  */
 namespace CSB\Request\V20171118;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class RenewCredentialsRequest extends RpcAcsRequest
 {
 	function  __construct()

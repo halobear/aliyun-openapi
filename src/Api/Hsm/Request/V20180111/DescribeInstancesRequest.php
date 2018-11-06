@@ -19,6 +19,8 @@
  */
 namespace hsm\Request\V20180111;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class DescribeInstancesRequest extends RpcAcsRequest
 {
 	function  __construct()

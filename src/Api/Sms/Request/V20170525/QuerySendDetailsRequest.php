@@ -2,6 +2,8 @@
 
 namespace AliyunOpenApi\Api\Sms\Request\V20170525;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class QuerySendDetailsRequest extends RpcAcsRequest
 {
 	function  __construct()

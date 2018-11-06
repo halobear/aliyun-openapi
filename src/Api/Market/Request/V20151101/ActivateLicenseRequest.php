@@ -19,6 +19,8 @@
  */
 namespace Market\Request\V20151101;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class ActivateLicenseRequest extends RpcAcsRequest
 {
 	function  __construct()

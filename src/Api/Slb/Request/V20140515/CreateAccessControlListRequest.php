@@ -19,6 +19,8 @@
  */
 namespace Slb\Request\V20140515;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class CreateAccessControlListRequest extends RpcAcsRequest
 {
 	function  __construct()

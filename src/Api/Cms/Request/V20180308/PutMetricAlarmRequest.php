@@ -19,6 +19,8 @@
  */
 namespace Cms\Request\V20180308;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class PutMetricAlarmRequest extends RpcAcsRequest
 {
 	function  __construct()

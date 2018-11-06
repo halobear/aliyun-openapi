@@ -19,6 +19,8 @@
  */
 namespace vod\Request\V20170321;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class PushObjectCacheRequest extends RpcAcsRequest
 {
 	function  __construct()
