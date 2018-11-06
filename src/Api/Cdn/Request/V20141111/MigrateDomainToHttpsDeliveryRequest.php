@@ -19,7 +19,7 @@
  */
 namespace Cdn\Request\V20141111;
 
-class MigrateDomainToHttpsDeliveryRequest extends \RpcAcsRequest
+class MigrateDomainToHttpsDeliveryRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

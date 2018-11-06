@@ -19,7 +19,7 @@
  */
 namespace CS\Request\V20151215;
 
-class CheckAliyunCSServiceRoleRequest extends \RoaAcsRequest
+class CheckAliyunCSServiceRoleRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

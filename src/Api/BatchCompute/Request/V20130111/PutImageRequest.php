@@ -19,7 +19,7 @@
  */
 namespace BatchCompute\Request\V20130111;
 
-class PutImageRequest extends \RoaAcsRequest
+class PutImageRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

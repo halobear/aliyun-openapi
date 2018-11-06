@@ -19,7 +19,7 @@
  */
 namespace ImageSearch\Request\V20180120;
 
-class DeleteItemRequest extends \RoaAcsRequest
+class DeleteItemRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

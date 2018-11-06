@@ -19,7 +19,7 @@
  */
 namespace CS\Request\V20151215;
 
-class DescribeAgilityTunnelCertsRequest extends \RoaAcsRequest
+class DescribeAgilityTunnelCertsRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

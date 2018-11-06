@@ -19,7 +19,7 @@
  */
 namespace BatchCompute\Request\V20130111;
 
-class StopJobRequest extends \RoaAcsRequest
+class StopJobRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

@@ -19,7 +19,7 @@
  */
 namespace CS\Request\V20151215;
 
-class GetTriggerHookRequest extends \RoaAcsRequest
+class GetTriggerHookRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

@@ -19,7 +19,7 @@
  */
 namespace Cloudauth\Request\V20180807;
 
-class GetVerifyTokenRequest extends \RpcAcsRequest
+class GetVerifyTokenRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

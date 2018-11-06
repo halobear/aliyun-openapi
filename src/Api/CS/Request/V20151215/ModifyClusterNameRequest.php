@@ -19,7 +19,7 @@
  */
 namespace CS\Request\V20151215;
 
-class ModifyClusterNameRequest extends \RoaAcsRequest
+class ModifyClusterNameRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

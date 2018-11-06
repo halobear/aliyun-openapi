@@ -19,7 +19,7 @@
  */
 namespace Cdn\Request\V20141111;
 
-class DescribeLiveStreamFrameInfoRequest extends \RpcAcsRequest
+class DescribeLiveStreamFrameInfoRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

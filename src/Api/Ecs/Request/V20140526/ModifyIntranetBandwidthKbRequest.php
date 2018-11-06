@@ -19,7 +19,7 @@
  */
 namespace Ecs\Request\V20140526;
 
-class ModifyIntranetBandwidthKbRequest extends \RpcAcsRequest
+class ModifyIntranetBandwidthKbRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

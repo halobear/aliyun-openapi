@@ -19,7 +19,7 @@
  */
 namespace Cdn\Request\V20141111;
 
-class AddLivePullStreamInfoRequest extends \RpcAcsRequest
+class AddLivePullStreamInfoRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

@@ -19,7 +19,7 @@
  */
 namespace CS\Request\V20151215;
 
-class AddAgilityClusterRequest extends \RoaAcsRequest
+class AddAgilityClusterRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

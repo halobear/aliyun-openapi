@@ -19,7 +19,7 @@
  */
 namespace Cdn\Request\V20141111;
 
-class SetPathForceTtlCodeConfigRequest extends \RpcAcsRequest
+class SetPathForceTtlCodeConfigRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

@@ -19,7 +19,7 @@
  */
 namespace Cdn\Request\V20141111;
 
-class DescribeDomainMonthBillingBpsDataRequest extends \RpcAcsRequest
+class DescribeDomainMonthBillingBpsDataRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

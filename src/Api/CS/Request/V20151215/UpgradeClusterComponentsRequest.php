@@ -19,7 +19,7 @@
  */
 namespace CS\Request\V20151215;
 
-class UpgradeClusterComponentsRequest extends \RoaAcsRequest
+class UpgradeClusterComponentsRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

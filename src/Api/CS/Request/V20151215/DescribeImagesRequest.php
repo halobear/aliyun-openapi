@@ -19,7 +19,7 @@
  */
 namespace CS\Request\V20151215;
 
-class DescribeImagesRequest extends \RoaAcsRequest
+class DescribeImagesRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

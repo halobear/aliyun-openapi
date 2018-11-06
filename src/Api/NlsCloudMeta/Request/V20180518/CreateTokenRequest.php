@@ -19,7 +19,7 @@
  */
 namespace nls_cloud_meta\Request\V20180518;
 
-class CreateTokenRequest extends \RoaAcsRequest
+class CreateTokenRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

@@ -19,7 +19,7 @@
  */
 namespace Ecs\Request\V20140526;
 
-class ValidateSecurityGroupRequest extends \RpcAcsRequest
+class ValidateSecurityGroupRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

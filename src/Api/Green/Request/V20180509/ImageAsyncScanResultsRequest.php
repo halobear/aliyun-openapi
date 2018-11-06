@@ -17,9 +17,11 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace Green\Request\V20180509;
+namespace AliyunOpenApi\Api\Green\Request\V20180509;
 
-class ImageAsyncScanResultsRequest extends \RoaAcsRequest
+use AliyunOpenApi\Core\RoaAcsRequest;
+
+class ImageAsyncScanResultsRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

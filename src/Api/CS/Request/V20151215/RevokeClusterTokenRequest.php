@@ -19,7 +19,7 @@
  */
 namespace CS\Request\V20151215;
 
-class RevokeClusterTokenRequest extends \RoaAcsRequest
+class RevokeClusterTokenRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

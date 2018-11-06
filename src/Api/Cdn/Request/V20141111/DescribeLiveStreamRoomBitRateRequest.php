@@ -19,7 +19,7 @@
  */
 namespace Cdn\Request\V20141111;
 
-class DescribeLiveStreamRoomBitRateRequest extends \RpcAcsRequest
+class DescribeLiveStreamRoomBitRateRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

@@ -19,7 +19,7 @@
  */
 namespace CS\Request\V20151215;
 
-class DescribeClusterNodeInfoRequest extends \RoaAcsRequest
+class DescribeClusterNodeInfoRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

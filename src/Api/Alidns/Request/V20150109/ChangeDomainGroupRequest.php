@@ -17,7 +17,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace Alidns\Request\V20150109;
+namespace AliyunOpenApi\Api\Alidns\Request\V20150109;
 
 use AliyunOpenApi\Core\RpcAcsRequest;
 

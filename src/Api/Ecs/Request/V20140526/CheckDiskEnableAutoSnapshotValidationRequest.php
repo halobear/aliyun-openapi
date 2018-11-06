@@ -19,7 +19,7 @@
  */
 namespace Ecs\Request\V20140526;
 
-class CheckDiskEnableAutoSnapshotValidationRequest extends \RpcAcsRequest
+class CheckDiskEnableAutoSnapshotValidationRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

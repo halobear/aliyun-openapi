@@ -19,7 +19,7 @@
  */
 namespace BatchCompute\Request\V20130111;
 
-class PutSnapshotRequest extends \RoaAcsRequest
+class PutSnapshotRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

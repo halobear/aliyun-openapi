@@ -19,7 +19,7 @@
  */
 namespace Cdn\Request\V20141111;
 
-class DescribeDomainOnlineUserNumberRequest extends \RpcAcsRequest
+class DescribeDomainOnlineUserNumberRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

@@ -19,7 +19,7 @@
  */
 namespace Cdn\Request\V20141111;
 
-class DescribeCdnDomainBaseDetailRequest extends \RpcAcsRequest
+class DescribeCdnDomainBaseDetailRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

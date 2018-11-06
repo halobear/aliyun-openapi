@@ -19,7 +19,7 @@
  */
 namespace Cdn\Request\V20141111;
 
-class SetFileTypeForceTtlCodeConfigRequest extends \RpcAcsRequest
+class SetFileTypeForceTtlCodeConfigRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

@@ -17,7 +17,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace vod\Request\V20170321;
+namespace AliyunOpenApi\Api\Vod\Request\V20170321;
 
 use AliyunOpenApi\Core\RpcAcsRequest;
 

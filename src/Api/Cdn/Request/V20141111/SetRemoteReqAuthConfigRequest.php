@@ -19,7 +19,7 @@
  */
 namespace Cdn\Request\V20141111;
 
-class SetRemoteReqAuthConfigRequest extends \RpcAcsRequest
+class SetRemoteReqAuthConfigRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

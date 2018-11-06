@@ -19,7 +19,7 @@
  */
 namespace CS\Request\V20151215;
 
-class CreateTemplateRequest extends \RoaAcsRequest
+class CreateTemplateRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

@@ -19,7 +19,7 @@
  */
 namespace CS\Request\V20151215;
 
-class DescribeTaskInfoRequest extends \RoaAcsRequest
+class DescribeTaskInfoRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

@@ -19,7 +19,7 @@
  */
 namespace CS\Request\V20151215;
 
-class DescribeApiVersionRequest extends \RoaAcsRequest
+class DescribeApiVersionRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

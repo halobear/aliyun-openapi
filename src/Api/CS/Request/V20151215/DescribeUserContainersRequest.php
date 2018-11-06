@@ -19,7 +19,7 @@
  */
 namespace CS\Request\V20151215;
 
-class DescribeUserContainersRequest extends \RoaAcsRequest
+class DescribeUserContainersRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

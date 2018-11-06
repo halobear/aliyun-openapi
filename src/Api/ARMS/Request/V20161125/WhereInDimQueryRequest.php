@@ -19,7 +19,7 @@
  */
 namespace ARMS\Request\V20161125;
 
-class WhereInDimQueryRequest extends \RpcAcsRequest
+class WhereInDimQueryRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

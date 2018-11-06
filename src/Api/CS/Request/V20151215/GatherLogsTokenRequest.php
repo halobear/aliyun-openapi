@@ -19,7 +19,7 @@
  */
 namespace CS\Request\V20151215;
 
-class GatherLogsTokenRequest extends \RoaAcsRequest
+class GatherLogsTokenRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

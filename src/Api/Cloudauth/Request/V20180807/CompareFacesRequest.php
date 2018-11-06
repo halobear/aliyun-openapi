@@ -19,7 +19,7 @@
  */
 namespace Cloudauth\Request\V20180807;
 
-class CompareFacesRequest extends \RpcAcsRequest
+class CompareFacesRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

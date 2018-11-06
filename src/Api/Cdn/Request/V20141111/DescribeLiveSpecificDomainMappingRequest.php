@@ -19,7 +19,7 @@
  */
 namespace Cdn\Request\V20141111;
 
-class DescribeLiveSpecificDomainMappingRequest extends \RpcAcsRequest
+class DescribeLiveSpecificDomainMappingRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

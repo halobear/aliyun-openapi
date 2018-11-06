@@ -19,7 +19,7 @@
  */
 namespace Cdn\Request\V20141111;
 
-class DescribeLiveStreamRelayPushDataRequest extends \RpcAcsRequest
+class DescribeLiveStreamRelayPushDataRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

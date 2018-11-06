@@ -19,7 +19,7 @@
  */
 namespace CS\Request\V20151215;
 
-class ScaleInClusterRequest extends \RoaAcsRequest
+class ScaleInClusterRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

@@ -19,7 +19,7 @@
  */
 namespace CS\Request\V20151215;
 
-class DeleteClusterNodeRequest extends \RoaAcsRequest
+class DeleteClusterNodeRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

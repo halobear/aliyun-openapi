@@ -19,7 +19,7 @@
  */
 namespace Cdn\Request\V20141111;
 
-class DescribeUserCustomLogConfigRequest extends \RpcAcsRequest
+class DescribeUserCustomLogConfigRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

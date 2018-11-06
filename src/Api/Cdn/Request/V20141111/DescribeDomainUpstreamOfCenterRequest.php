@@ -19,7 +19,7 @@
  */
 namespace Cdn\Request\V20141111;
 
-class DescribeDomainUpstreamOfCenterRequest extends \RpcAcsRequest
+class DescribeDomainUpstreamOfCenterRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

@@ -19,7 +19,7 @@
  */
 namespace Rds\Request\V20140815;
 
-class CheckDBInstancesRequest extends \RpcAcsRequest
+class CheckDBInstancesRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

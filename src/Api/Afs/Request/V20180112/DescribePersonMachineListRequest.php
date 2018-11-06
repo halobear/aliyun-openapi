@@ -17,7 +17,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace afs\Request\V20180112;
+namespace AliyunOpenApi\Api\Afs\Request\V20180112;
 
 use AliyunOpenApi\Core\RpcAcsRequest;
 

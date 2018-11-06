@@ -19,7 +19,7 @@
  */
 namespace Cdn\Request\V20141111;
 
-class SetLocationAccessRestrictionRequest extends \RpcAcsRequest
+class SetLocationAccessRestrictionRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

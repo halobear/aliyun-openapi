@@ -19,7 +19,7 @@
  */
 namespace Cdn\Request\V20141111;
 
-class DescribeLiveStreamPushErrorsRequest extends \RpcAcsRequest
+class DescribeLiveStreamPushErrorsRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

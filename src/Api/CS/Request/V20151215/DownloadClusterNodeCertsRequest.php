@@ -19,7 +19,7 @@
  */
 namespace CS\Request\V20151215;
 
-class DownloadClusterNodeCertsRequest extends \RoaAcsRequest
+class DownloadClusterNodeCertsRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

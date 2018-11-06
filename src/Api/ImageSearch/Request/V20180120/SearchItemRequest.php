@@ -19,7 +19,7 @@
  */
 namespace ImageSearch\Request\V20180120;
 
-class SearchItemRequest extends \RoaAcsRequest
+class SearchItemRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

@@ -19,7 +19,7 @@
  */
 namespace Cloudauth\Request\V20180807;
 
-class GetStatusRequest extends \RpcAcsRequest
+class GetStatusRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

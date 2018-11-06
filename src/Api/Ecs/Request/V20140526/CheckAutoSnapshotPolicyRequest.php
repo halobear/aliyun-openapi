@@ -19,7 +19,7 @@
  */
 namespace Ecs\Request\V20140526;
 
-class CheckAutoSnapshotPolicyRequest extends \RpcAcsRequest
+class CheckAutoSnapshotPolicyRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

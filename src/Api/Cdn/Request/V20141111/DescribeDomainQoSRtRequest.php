@@ -19,7 +19,7 @@
  */
 namespace Cdn\Request\V20141111;
 
-class DescribeDomainQoSRtRequest extends \RpcAcsRequest
+class DescribeDomainQoSRtRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

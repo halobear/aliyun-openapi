@@ -19,7 +19,7 @@
  */
 namespace Cdn\Request\V20141111;
 
-class DescribeLiveStreamLimitInfoRequest extends \RpcAcsRequest
+class DescribeLiveStreamLimitInfoRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

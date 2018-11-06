@@ -19,7 +19,7 @@
  */
 namespace Ecs\Request\V20140526;
 
-class AddIpRangeRequest extends \RpcAcsRequest
+class AddIpRangeRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

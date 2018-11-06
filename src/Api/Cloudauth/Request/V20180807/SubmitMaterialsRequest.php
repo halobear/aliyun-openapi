@@ -19,7 +19,7 @@
  */
 namespace Cloudauth\Request\V20180807;
 
-class SubmitMaterialsRequest extends \RpcAcsRequest
+class SubmitMaterialsRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

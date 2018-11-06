@@ -19,7 +19,7 @@
  */
 namespace Cdn\Request\V20141111;
 
-class DescribeLiveStreamTranscodeStreamNumRequest extends \RpcAcsRequest
+class DescribeLiveStreamTranscodeStreamNumRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

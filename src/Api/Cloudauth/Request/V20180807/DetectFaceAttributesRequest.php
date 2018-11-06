@@ -19,7 +19,7 @@
  */
 namespace Cloudauth\Request\V20180807;
 
-class DetectFaceAttributesRequest extends \RpcAcsRequest
+class DetectFaceAttributesRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

@@ -19,7 +19,7 @@
  */
 namespace BatchCompute\Request\V20130111;
 
-class DeleteSnapshotRequest extends \RoaAcsRequest
+class DeleteSnapshotRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

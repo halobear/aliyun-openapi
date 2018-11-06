@@ -19,7 +19,7 @@
  */
 namespace ARMS\Request\V20161125;
 
-class ARMSQueryDataSetRequest extends \RpcAcsRequest
+class ARMSQueryDataSetRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

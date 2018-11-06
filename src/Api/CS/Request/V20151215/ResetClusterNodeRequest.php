@@ -19,7 +19,7 @@
  */
 namespace CS\Request\V20151215;
 
-class ResetClusterNodeRequest extends \RoaAcsRequest
+class ResetClusterNodeRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

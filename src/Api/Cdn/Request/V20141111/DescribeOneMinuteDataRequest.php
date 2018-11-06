@@ -19,7 +19,7 @@
  */
 namespace Cdn\Request\V20141111;
 
-class DescribeOneMinuteDataRequest extends \RpcAcsRequest
+class DescribeOneMinuteDataRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

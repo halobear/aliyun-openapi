@@ -19,7 +19,7 @@
  */
 namespace Cdn\Request\V20141111;
 
-class BatchDescribeDomainBpsDataRequest extends \RpcAcsRequest
+class BatchDescribeDomainBpsDataRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

@@ -19,7 +19,7 @@
  */
 namespace CS\Request\V20151215;
 
-class AttachInstancesRequest extends \RoaAcsRequest
+class AttachInstancesRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

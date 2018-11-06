@@ -19,7 +19,7 @@
  */
 namespace Ecs\Request\V20140526;
 
-class BindIpRangeRequest extends \RpcAcsRequest
+class BindIpRangeRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

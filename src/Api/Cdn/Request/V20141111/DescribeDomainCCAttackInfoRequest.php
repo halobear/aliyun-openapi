@@ -19,7 +19,7 @@
  */
 namespace Cdn\Request\V20141111;
 
-class DescribeDomainCCAttackInfoRequest extends \RpcAcsRequest
+class DescribeDomainCCAttackInfoRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

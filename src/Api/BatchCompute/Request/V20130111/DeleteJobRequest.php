@@ -19,7 +19,7 @@
  */
 namespace BatchCompute\Request\V20130111;
 
-class DeleteJobRequest extends \RoaAcsRequest
+class DeleteJobRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

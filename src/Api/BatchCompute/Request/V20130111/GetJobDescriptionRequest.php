@@ -19,7 +19,7 @@
  */
 namespace BatchCompute\Request\V20130111;
 
-class GetJobDescriptionRequest extends \RoaAcsRequest
+class GetJobDescriptionRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

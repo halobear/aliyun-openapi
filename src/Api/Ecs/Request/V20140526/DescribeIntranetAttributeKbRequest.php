@@ -19,7 +19,7 @@
  */
 namespace Ecs\Request\V20140526;
 
-class DescribeIntranetAttributeKbRequest extends \RpcAcsRequest
+class DescribeIntranetAttributeKbRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

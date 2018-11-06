@@ -19,7 +19,7 @@
  */
 namespace CS\Request\V20151215;
 
-class UpdateSubUserResoucesRequest extends \RoaAcsRequest
+class UpdateSubUserResoucesRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

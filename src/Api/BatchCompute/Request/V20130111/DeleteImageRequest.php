@@ -19,7 +19,7 @@
  */
 namespace BatchCompute\Request\V20130111;
 
-class DeleteImageRequest extends \RoaAcsRequest
+class DeleteImageRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{

@@ -19,7 +19,7 @@
  */
 namespace Ecs\Request\V20140526;
 
-class DescribeEventDetailRequest extends \RpcAcsRequest
+class DescribeEventDetailRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

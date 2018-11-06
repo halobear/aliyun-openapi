@@ -19,7 +19,7 @@
  */
 namespace saf\Request\V20170331;
 
-class ExecuteRequestRequest extends \RpcAcsRequest
+class ExecuteRequestRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

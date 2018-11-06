@@ -19,7 +19,7 @@
  */
 namespace Cdn\Request\V20141111;
 
-class DescribeLiveStreamHlsOnlineUserNumByDomainRequest extends \RpcAcsRequest
+class DescribeLiveStreamHlsOnlineUserNumByDomainRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

@@ -19,7 +19,7 @@
  */
 namespace CS\Request\V20151215;
 
-class CreateClusterTokenRequest extends \RoaAcsRequest
+class CreateClusterTokenRequest extends RoaAcsRequest
 {
 	function  __construct()
 	{
