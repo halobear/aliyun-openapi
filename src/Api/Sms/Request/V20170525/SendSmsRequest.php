@@ -2,8 +2,6 @@
 
 namespace AliyunOpenApi\Api\Sms\Request\V20170525;
 
-use AliyunOpenApi\CoreRpcAcsRequest;
-
 class SendSmsRequest extends RpcAcsRequest
 {
 	public function  __construct()
