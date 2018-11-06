@@ -19,6 +19,8 @@
  */
 namespace pvtz\Request\V20180101;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class CheckZoneNameRequest extends RpcAcsRequest
 {
 	function  __construct()

@@ -19,6 +19,8 @@
  */
 namespace pvtz\Request\V20180101;
 
+use AliyunOpenApi\Core\RpcAcsRequest;
+
 class DescribeRegionsRequest extends RpcAcsRequest
 {
 	function  __construct()
