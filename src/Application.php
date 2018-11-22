@@ -22,23 +22,17 @@ class Application
      *
      * @param        $accessKeyId
      * @param        $accessKeySecret
-     * @param        $product
-     * @param        $domain
+     * @param string $product 产品名称
+     * @param string $domain  产品域名
      * @param string $region
      * @param string $endPointName
      *
      * @return DefaultAcsClient
      */
-    public static function getAcsClient($accessKeyId, $accessKeySecret, $product, $domain, $region = 'cn-hangzhou', $endPointName = "cn-hangzhou")
+    public static function getAcsClient($accessKeyId, $accessKeySecret, $product = '', $domain = '', $region = 'cn-hangzhou', $endPointName = "cn-hangzhou")
     {
         // 初始化阿里云config
         AliyunConfig::load();
-
-        //产品名称:云通信短信服务API产品,开发者无需替换
-        // $product = "Dysmsapi";
-
-        //产品域名,开发者无需替换
-        // $domain = "dysmsapi.aliyuncs.com";
 
         if (static::$acsClient == null) {
 
@@ -46,7 +40,9 @@ class Application
             $profile = DefaultProfile::getProfile($region, $accessKeyId, $accessKeySecret);
 
             // 增加服务结点
-            DefaultProfile::addEndpoint($endPointName, $region, $product, $domain);
+            if ($product && $domain) {
+                DefaultProfile::addEndpoint($endPointName, $region, $product, $domain);
+            }
 
             // 初始化AcsClient用于发起请求
             static::$acsClient = new DefaultAcsClient($profile);
