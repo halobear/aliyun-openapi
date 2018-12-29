@@ -20,6 +20,7 @@
 namespace AliyunOpenApi\Core\Auth;
 use AliyunOpenApi\Core\Exception\ClientException;
 use AliyunOpenApi\Core\Http\HttpHelper;
+use AliyunOpenApi\Core\Profile\IClientProfile;
 use AliyunOpenApi\Core\RpcAcsRequest;
 
 /**

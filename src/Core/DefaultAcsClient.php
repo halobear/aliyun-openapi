@@ -19,6 +19,16 @@ namespace AliyunOpenApi\Core;
  * under the License.
  */
 
+use AliyunOpenApi\Core\Auth\EcsRamRoleService;
+use AliyunOpenApi\Core\Auth\RamRoleArnService;
+use AliyunOpenApi\Core\Exception\ClientException;
+use AliyunOpenApi\Core\Exception\ServerException;
+use AliyunOpenApi\Core\Http\HttpHelper;
+use AliyunOpenApi\Core\Http\HttpResponse;
+use AliyunOpenApi\Core\Profile\IClientProfile;
+use AliyunOpenApi\Core\Regions\EndpointProvider;
+use AliyunOpenApi\Core\Regions\LocationService;
+
 class DefaultAcsClient implements IAcsClient
 {
     /**

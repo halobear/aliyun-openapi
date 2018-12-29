@@ -19,6 +19,8 @@ namespace AliyunOpenApi\Core;
  * under the License.
  */
 
+use AliyunOpenApi\Core\Auth\BearerTokenCredential;
+
 abstract class RoaAcsRequest extends AcsRequest
 {
     /**
