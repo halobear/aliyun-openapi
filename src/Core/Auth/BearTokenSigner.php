@@ -19,11 +19,40 @@ namespace AliyunOpenApi\Core\Auth;
  * under the License.
  */
 
-abstract class AbstractCredential
+class BearTokenSigner implements ISigner
 {
-    abstract public function getAccessKeyId();
+    /**
+     * @param $source
+     * @param $accessSecret
+     *
+     * @return null
+     */
+    public function signString($source, $accessSecret)
+    {
+        return null;
+    }
 
-    abstract public function getAccessSecret();
+    /**
+     * @return null
+     */
+    public function getSignatureMethod()
+    {
+        return null;
+    }
 
-    abstract public function getSecurityToken();
+    /**
+     * @return string
+     */
+    public function getSignatureVersion()
+    {
+        return '1.0';
+    }
+
+    /**
+     * @return string
+     */
+    public function getSignatureType()
+    {
+        return 'BEARERTOKEN';
+    }
 }

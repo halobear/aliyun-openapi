@@ -1,5 +1,5 @@
 <?php
-namespace AliyunOpenApi\Core\Exception;
+namespace AliyunOpenApi\Core\Auth;
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -19,48 +19,60 @@ namespace AliyunOpenApi\Core\Exception;
  * under the License.
  */
 
-class ServerException extends ClientException
+class BearerTokenCredential extends AbstractCredential
 {
     /**
      * @var string
      */
-    private $httpStatus;
-    /**
-     * @var string
-     */
-    private $requestId;
+    private $bearerToken;
 
     /**
-     * ServerException constructor.
+     * BearerTokenCredential constructor.
      *
-     * @param $errorMessage
-     * @param $errorCode
-     * @param $httpStatus
-     * @param $requestId
+     * @param $bearerToken
      */
-    public function __construct($errorMessage, $errorCode, $httpStatus, $requestId)
+    public function __construct($bearerToken)
     {
-        $messageStr = $errorCode . ' ' . $errorMessage . ' HTTP Status: ' . $httpStatus . ' RequestID: ' . $requestId;
-        parent::__construct($messageStr, $errorCode);
-        $this->setErrorMessage($errorMessage);
-        $this->setErrorType('Server');
-        $this->httpStatus = $httpStatus;
-        $this->requestId  = $requestId;
+        $this->bearerToken = $bearerToken;
+    }
+
+    /**
+     * @return null
+     */
+    public function getAccessKeyId()
+    {
+        return null;
+    }
+
+    /**
+     * @return null
+     */
+    public function getAccessSecret()
+    {
+        return null;
     }
 
     /**
      * @return string
      */
-    public function getHttpStatus()
+    public function getBearerToken()
     {
-        return $this->httpStatus;
+        return $this->bearerToken;
     }
 
     /**
-     * @return string
+     * @param $bearerToken
      */
-    public function getRequestId()
+    public function setBearerToken($bearerToken)
     {
-        return $this->requestId;
+        $this->bearerToken = $bearerToken;
+    }
+
+    /**
+     * @return null
+     */
+    public function getSecurityToken()
+    {
+        return null;
     }
 }

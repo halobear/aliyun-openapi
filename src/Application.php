@@ -50,4 +50,37 @@ class Application
 
         return static::$acsClient;
     }
+
+    /**
+     * 取得AcsClient
+     *
+     * @param        $token
+     * @param string $product 产品名称
+     * @param string $domain  产品域名
+     * @param string $region
+     * @param string $endPointName
+     *
+     * @return DefaultAcsClient
+     */
+    public static function getAcsClientByOAuth($token, $product = '', $domain = '', $region = 'cn-hangzhou', $endPointName = "cn-hangzhou")
+    {
+        // 初始化阿里云config
+        AliyunConfig::load();
+
+        if (static::$acsClient == null) {
+
+            //初始化acsClient,暂不支持region化
+            $profile = DefaultProfile::getBearerTokenProfile($region, $token);
+
+            // 增加服务结点
+            if ($product && $domain) {
+                DefaultProfile::addEndpoint($endPointName, $region, $product, $domain);
+            }
+
+            // 初始化AcsClient用于发起请求
+            static::$acsClient = new DefaultAcsClient($profile);
+        }
+
+        return static::$acsClient;
+    }
 }

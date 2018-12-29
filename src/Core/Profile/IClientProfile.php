@@ -1,6 +1,5 @@
 <?php
 namespace AliyunOpenApi\Core\Profile;
-
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -19,14 +18,15 @@ namespace AliyunOpenApi\Core\Profile;
  * specific language governing permissions and limitations
  * under the License.
  */
+
 interface IClientProfile
 {
     public function getSigner();
-    
+
     public function getRegionId();
-    
+
     public function getFormat();
-    
+
     public function getCredential();
 
     public function isRamRoleArn();

@@ -1,6 +1,5 @@
 <?php
 namespace AliyunOpenApi\Core\Auth;
-
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -19,11 +18,20 @@ namespace AliyunOpenApi\Core\Auth;
  * specific language governing permissions and limitations
  * under the License.
  */
+
 interface ISigner
 {
     public function getSignatureMethod();
-    
+
     public function getSignatureVersion();
-    
+
+    /**
+     * @param $source
+     * @param $accessSecret
+     *
+     * @return mixed
+     */
     public function signString($source, $accessSecret);
+
+    public function getSignatureType();
 }

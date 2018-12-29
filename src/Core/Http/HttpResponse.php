@@ -1,6 +1,5 @@
 <?php
 namespace AliyunOpenApi\Core\Http;
-
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -19,36 +18,55 @@ namespace AliyunOpenApi\Core\Http;
  * specific language governing permissions and limitations
  * under the License.
  */
+
 class HttpResponse
 {
+    /**
+     * @var string
+     */
     private $body;
+    /**
+     * @var string
+     */
     private $status;
-    
+
+    /**
+     * @return string
+     */
     public function getBody()
     {
         return $this->body;
     }
-    
+
+    /**
+     * @param $body
+     */
     public function setBody($body)
     {
         $this->body = $body;
     }
-    
+
+    /**
+     * @return string
+     */
     public function getStatus()
     {
         return $this->status;
     }
-    
+
+    /**
+     * @param $status
+     */
     public function setStatus($status)
     {
-        $this->status  = $status;
+        $this->status = $status;
     }
-    
+
+    /**
+     * @return bool
+     */
     public function isSuccess()
     {
-        if (200 <= $this->status && 300 > $this->status) {
-            return true;
-        }
-        return false;
+        return 200 <= $this->status && 300 > $this->status;
     }
 }
