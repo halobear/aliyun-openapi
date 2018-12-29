@@ -17,7 +17,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace CCC\Request\V20170705;
+namespace AliyunOpenApi\Api\CCC\Request\V20170705;
 
 use AliyunOpenApi\Core\RpcAcsRequest;
 
